@@ -1,9 +1,9 @@
 const { Client } = require('@elastic/elasticsearch');
 
 const client = new Client({
-  node: 'cloud-url-here',
+  node: 'https://my-elasticsearch-project-c21946.es.ap-southeast-1.aws.elastic.cloud:443',
   auth: {
-    apiKey: 'api-key-here',
+    apiKey: 'N1hyTEU1WUJyMFREekF4bEExRzU6eUd3Z09sN3ZrMjh3eVpJVXFzc3RQZw=='
   }
 });
 

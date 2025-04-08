@@ -9,7 +9,6 @@ const data = require('./data_op');
 
 app.use('/ingest_data', data);
 
-console.log(data)
 app.use(cors());
 
 app.get('/results', (req, res) => {
